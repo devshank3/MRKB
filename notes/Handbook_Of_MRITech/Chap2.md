@@ -17,3 +17,7 @@ SNR is usually increased by using
 - a flip angle of 90°
 - a well-tuned and correctly sized coil
 - a coarse matrix
+
+
+CNR 
+Contrast to noise ratio
