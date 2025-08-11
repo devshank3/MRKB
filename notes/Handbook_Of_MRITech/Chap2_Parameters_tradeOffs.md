@@ -33,3 +33,11 @@ or sequences that null signal from certain tissues: short TI inversion
 recovery (STIR), fluid alternated inversion recovery (FLAIR),
 magnetization-prepared sequences).
 
+Spatial Resolution 
+
+The spatial resolution is the ability to distinguish between two points as
+separate and distinct. It is controlled by the voxel size. Spatial resolution
+may be increased by selecting:
+- Thin slices
+- Fine matrices
+- A small FOV.
