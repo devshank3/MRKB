@@ -29,5 +29,19 @@ Spin echo (SE)
 
 Also known as Conventional spin echo. 
 
+For T1 weighting in SE use: 
+- short TE min–20 ms 
+- short TR 300–600 ms 
+
+For PD/T2 weighting in SE use:
+- short TE 20 ms (first echo PD)
+- long TE 70 ms (second echo T2)
+- long TR 2000 ms
 
 
+Fast Spin echo (FSE) or TSE - Turbo spin echo 
+
+Fast spin echo (FSE) uses a 90° flip angle followed by several 180° rephasing
+pulses to produce several spin echoes in a given TR.
+
+Inversion recovery (IR/IR-FSE)
