@@ -1,9 +1,9 @@
-Introduction 
+## Introduction 
 
-Image optimizations and suggested protocols, 
+Image optimizations and suggested protocols, most frequently used Pulse sequences 
 
 
-Manufacturer acronyms comparision:
+Manufacturer acronyms comparison:
 
 | Pulse Sequence/Imaging        | General      | Philips      | Siemens      | Option         |
 |-------------------------------|--------------|--------------|--------------|----------------|
@@ -25,9 +25,16 @@ Manufacturer acronyms comparision:
 | Rectangular/asymmetric        | Rectangular  | Rectangular  | Undersampling|                |
 | FOV                           | FOV          |              |              |                |
 
-Spin echo (SE) 
+---
 
-Also known as Conventional spin echo. 
+### Spin echo (SE) 
+
+Also known as Conventional Spin Echo (CSE). 
+
+Uses a 90° excitation pulse followed by a 180° rephasing pulse to produce a spin echo.
+Sometimes variable flip angle could also be used. 
+
+SE pulse sequences are the most commonly implemented sequences as they produce optimum SNR and CNR.
 
 For T1 weighting in SE use: 
 - short TE min–20 ms 
