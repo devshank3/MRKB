@@ -5,7 +5,7 @@ Image optimizations and suggested protocols, most frequently used Pulse sequence
 
 Manufacturer acronyms comparison:
 
-| Pulse Sequence/Imaging        | General      | Philips      | Siemens      | Option         |
+| Pulse Sequence/Imaging        | GE           | Philips      | Siemens      | Option         |
 |-------------------------------|--------------|--------------|--------------|----------------|
 | Spin echo                     | Spin echo    | Spin echo    | Spin echo    |                |
 | Fast spin echo                | FSE          | TSE          | TSE          |                |
@@ -36,19 +36,24 @@ Sometimes variable flip angle could also be used.
 
 SE pulse sequences are the most commonly implemented sequences as they produce optimum SNR and CNR.
 
-For T1 weighting in SE use: 
+For T1 weighting one SE is used: 
 - short TE min–20 ms 
 - short TR 300–600 ms 
 
-For PD/T2 weighting in SE use:
+For PD/T2 weighting 2 SE's are used:
 - short TE 20 ms (first echo PD)
 - long TE 70 ms (second echo T2)
 - long TR 2000 ms
 
+---
 
-Fast Spin echo (FSE) or TSE - Turbo spin echo 
+### Fast Spin echo (FSE) or TSE - Turbo spin echo 
 
 Fast spin echo (FSE) uses a 90° flip angle followed by several 180° rephasing
 pulses to produce several spin echoes in a given TR.
 
-Inversion recovery (IR/IR-FSE)
+Data from each echo are collected and stored in a different line of K space.
+
+
+---
+### Inversion recovery (IR/IR-FSE)
