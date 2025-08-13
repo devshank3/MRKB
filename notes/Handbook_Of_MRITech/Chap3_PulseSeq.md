@@ -53,7 +53,21 @@ Fast spin echo (FSE) uses a 90° flip angle followed by several 180° rephasing
 pulses to produce several spin echoes in a given TR.
 
 Data from each echo are collected and stored in a different line of K space.
+FSE can be used to produce either one or two echoes as in SE.
+
 
 
 ---
+
 ### Inversion recovery (IR/IR-FSE)
+
+---
+
+### Coherent gradient echo (GRE) (T2*)
+
+---
+
+### Balanced gradient echo (GRE) (T2*)
+
+---
+
